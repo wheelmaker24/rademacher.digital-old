@@ -6,7 +6,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
     gtag('config', 'UA-3580338-3');
   </script>
   <meta charset="utf-8">
@@ -166,7 +165,9 @@
       </strong>
       <div class="bubble accordion-content" style="display: block;">
         <ul>
-          <li>Webentwicklung für Frontend</li>
+          <li>Aufbau und Pflege einer Pattern Library für einen Automobilkonzern</li>
+          <li>Soft-Launch eines neuen Frontends für ein internationales CMS mit über 1.200 Webseiten</li>
+          <li>Agile Entwicklung nach Scrum</li>
         </ul>
         <ul class="tags">
           <li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li>
@@ -317,8 +318,7 @@ $(document).ready(function(){
     pauseOnFocus: false,
     speed: 400,
     variableWidth: true,
-    responsive: [
-    {
+    responsive: [{
       breakpoint: 750,
       settings: {
         autoplay: true,
@@ -336,9 +336,8 @@ $(document).ready(function(){
   });
   
   $('.accordion-container').click(function() {
-    $(this).find('.accordion-content').slideToggle("slow", function() {
-      $(this).parent().siblings().find('.accordion-content').slideUp();
-    });
+    $(this).find('.accordion-content').slideToggle("fast");
+    $(this).parent().siblings().find('.accordion-content').slideUp();
   });
 });
 </script>

@@ -1,3 +1,7 @@
 # rademacher.digital
 
-Private website
+This is my personal static hosted homepage / digital cv.
+
+## Links
+
+* [https://rademacher.digital](rademacher.digital)
